@@ -1,0 +1,85 @@
+apiVersion: v1
+entries:
+  ibm-cassandra-dev:
+  - appVersion: 3.11.3
+    created: 2019-05-09T00:34:00.865232174-07:00
+    description: Apache Cassandra
+    digest: cff172a4b4743489d17c9cb39b8523f080b5ffe72632d0b0c4dafb45892b3a8f
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    - s390x
+    - ppc64le
+    - amd64
+    - Beta
+    - Limited
+    - ICP
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    name: ibm-cassandra-dev
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://sachav83.github.io/icprepo/ibm-cassandra-dev-0.10.0.tgz
+    version: 0.10.0
+  ibm-drupal-dev:
+  - appVersion: 8.6.9
+    created: 2019-05-09T00:34:00.891554891-07:00
+    description: One of the most versatile open source content management systems.
+    digest: 442db6de2e8f5ed61ce4487f8ace9ec9bbf449b8a5dfd743ea10d2092b26418d
+    engine: gotpl
+    keywords:
+    - drupal
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - ppc64le
+    - Tools
+    - Beta
+    - Limited
+    - ICP
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: ibm-drupal-dev
+    sources:
+    - https://github.com/bitnami/bitnami-docker-drupal
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://sachav83.github.io/icprepo/ibm-drupal-dev-0.10.0.tgz
+    version: 0.10.0
+  ibm-lamp-dev:
+  - apiVersion: v1
+    appVersion: "5.7"
+    created: 2019-05-09T00:34:00.904093801-07:00
+    description: Modular and transparent LAMP stack chart.
+    digest: ad556e1fa9e51714a8a6e568b3a07e26aa5330b936c15155aa0563fc240d40b4
+    home: https://github.com/lead4good/helm-lamp-stack
+    icon: https://raw.githubusercontent.com/ppc64le/charts/master/logo/lamp.png
+    keywords:
+    - Limited
+    - ppc64le
+    - Tools
+    - ICP
+    - lamp
+    - mariadb
+    - Beta
+    kubeVersion: '>=1.7'
+    maintainers:
+    - email: smohite@us.ibm.com
+      name: IBM ISV Team
+    name: ibm-lamp-dev
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://sachav83.github.io/icprepo/ibm-lamp-dev-0.1.5.tgz
+    version: 0.1.5
+generated: 2019-05-09T00:34:00.861262758-07:00
