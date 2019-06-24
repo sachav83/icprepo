@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ibm-drupal-dev:
   - appVersion: 8.6.9
-    created: 2019-06-24T02:34:42.77798397-07:00
+    created: 2019-06-24T03:13:42.543696987-07:00
     description: One of the most versatile open source content management systems.
     digest: 931660347f404ab6d92aabf65064a2f722404fb1390bb1ed6e5b6ba50de43394
     engine: gotpl
@@ -30,10 +30,40 @@ entries:
     urls:
     - https://sachav83.github.io/icprepo/ibm-drupal-dev-0.10.0.tgz
     version: 0.10.0
+  ibm-joomla-dev:
+  - appVersion: 3.9.3
+    created: 2019-06-24T03:13:42.572033645-07:00
+    description: PHP content management system (CMS) for publishing web content
+    digest: d87158c36768e91ddbb75cf619997b776f5b4c4d400b6b2e08676e5496460b87
+    engine: gotpl
+    home: http://www.joomla.org/
+    icon: https://bitnami.com/assets/stacks/joomla/img/joomla-stack-220x234.png
+    keywords:
+    - joomla
+    - cms
+    - blog
+    - http
+    - php
+    - ppc64le
+    - Beta
+    - Limited
+    - OpenSource
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - name: Bitnami
+    name: ibm-joomla-dev
+    sources:
+    - https://github.com/bitnami/bitnami-docker-joomla
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://sachav83.github.io/icprepo/ibm-joomla-dev-0.3.0.tgz
+    version: 0.3.0
   ibm-lamp-dev:
   - apiVersion: v1
     appVersion: "5.7"
-    created: 2019-06-24T02:34:42.784422567-07:00
+    created: 2019-06-24T03:13:42.57931197-07:00
     description: Modular and transparent LAMP stack chart.
     digest: d2207e005e0e1e18875e6b2df3b55c71c17d8b7cca60468543584a33c883e09f
     home: https://github.com/lead4good/helm-lamp-stack
@@ -54,4 +84,35 @@ entries:
     urls:
     - https://sachav83.github.io/icprepo/ibm-lamp-dev-0.1.5.tgz
     version: 0.1.5
-generated: 2019-06-24T02:34:42.726949144-07:00
+  ibm-matomo-dev:
+  - appVersion: 5.1.0
+    created: 2019-06-24T03:13:42.602832535-07:00
+    description: Web publishing platform for building blogs and websites.
+    digest: cf71df9697d60a0de1c3677813424b5cabcc5f4a95dac9bf1f7c335a2b79924c
+    engine: gotpl
+    home: http://www.matomo.com/
+    icon: https://bitnami.com/assets/stacks/matomo/img/matomo-stack-220x234.png
+    keywords:
+    - matomo
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - Limited
+    - Beta
+    - ppc64le
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - name: Nailusha
+    name: ibm-matomo-dev
+    sources:
+    - https://github.com/matomo-org/docker
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://sachav83.github.io/icprepo/ibm-matomo-dev-0.3.0.tgz
+    version: 0.3.0
+generated: 2019-06-24T03:13:42.489757902-07:00
